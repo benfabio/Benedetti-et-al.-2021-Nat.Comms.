@@ -1,9 +1,8 @@
 # 19/05/2021
 
-# Benedetti-et-al. (#NCOMMS-20-37764A)
+# Benedetti al. (2021) Major restructuring of marine plankton assemblages under global warming. Nature Communications, 12, 5226. https://doi.org/10.1038/s41467-021-25385-x
 This repository contains parts of the R scripts developed during my postdoc at ETH Zürich, D-USYS, IBP, UP group.
-
-The present R scripts were developed to produce the results of the manuscript submitted to Nature Communications (#NCOMMS-20-37764A).
+The present R scripts were developed to produce the results of Benede tti et al. (2021.
 
 - Scripts labelled as 'RSCRIPTBATCH' are those that were run on a local cluster to perform those functions defined within the script in parallel using the 'parallel' R package (R Core Team, 2020) within a mclapply().
 - Scripts that were given a number correspond to those R scripts were I formated and mined the main datasets involved. They usually contain organized sequences of code where data are being read, examined, reformatted, analyzed and plotted. These scripts often correspond to the preparation. The number given to a script mainly corresponds to a temporal marker, and not necessarily a direct sequence from one numbered script to another. Considering that multiple studies fall under the OVERSEE project, some of the numbered scripts are deposited in another repository. This is why there might be gaps between the numbers of the present R scripts.
